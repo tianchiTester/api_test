@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite_AllTest" verbose="1" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="utility.PriorityInterceptor"/>
+        <listener class-name="report.IsenCustomizedEmailableReporter"/>
+        <listener class-name="report.IsenXMLReporter"/>
+    </listeners>
+    <test name="1">
+        <classes>
+            <class name="testcase.Case_025_CreditSuisse"/>
+        </classes>
+    </test>
+</suite>
+
+
+

@@ -1,0 +1,2 @@
+javac -classpath lib/* -d ./bin ./src/test/java/org/json/*.java ./src/test/java/pssw/isen/api/single/*.java ./src/test/java/pssw/isen/common/*.java ./src/test/java/pssw/isen/engine/*.java ./src/test/java/pssw/isen/report/*.java ./src/test/java/pssw/isen/signintool/*.java ./src/test/java/pssw/isen/testcase/*.java ./src/test/java/pssw/isen/utility/*.java
+java -cp bin;lib/* org.testng.TestNG ./TestSuite_all.xml

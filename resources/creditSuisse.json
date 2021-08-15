@@ -1,0 +1,38 @@
+{
+  "GET": {
+    "getCookies-CN": {
+      "QueryString": "",
+      "UrlParams": "",
+      "HeaderParams": "",
+      "RequestBody": null,
+      "HeaderType": "CN",
+      "ExpectedCode": "200",
+      "ExpectedBody": {
+        "key0": {
+          "cookieSet": true
+        }
+      },
+      "Comment": "",
+      "RelatedBug": "",
+      "Disabled": false,
+      "VerificationMode": "Contains"
+    },
+    "getCookies-EN": {
+      "QueryString": "",
+      "UrlParams": "",
+      "HeaderParams": "",
+      "RequestBody": null,
+      "HeaderType": "CN",
+      "ExpectedCode": "200",
+      "ExpectedBody": {
+        "key0": {
+          "cookieSet": true
+        }
+      },
+      "Comment": "",
+      "RelatedBug": "",
+      "Disabled": false,
+      "VerificationMode": "Contains"
+    }
+  }
+}
